@@ -79,10 +79,10 @@ const sumarFlecha = (a,b) => {
     return a + b;
 }
 
-console.log("SumarFlecha: " + sumarFlecha(1, 2));
+console.log("SumarFlecha: " + sumarFlecha(1, 3));
 
 // Función de flecha resumida, sin llaves {} y sin return:
 const sumarFlechaResumida = (a, b) => a + b;
 
-console.log("SumarFlechaResumida: " + sumarFlechaResumida(1, 2));
+console.log("SumarFlechaResumida: " + sumarFlechaResumida(1, 4));
 

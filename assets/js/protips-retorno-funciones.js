@@ -20,7 +20,7 @@ const imprimeArgumentos = (...args) => {
 };
 
 // Desestructuración de arreglos:
-const [casado, vivo, nombre, saludo] = imprimeArgumentos(
+const [edad, casado, vivo, nombre, saludo] = imprimeArgumentos(
   36,
   false,
   false,

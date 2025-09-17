@@ -22,7 +22,6 @@ juegos.forEach((elemento, indice, arr) => {
   console.log({ elemento, indice, arr });
 });
 
-
 /*
  * Los arreglos en JavaScript son dinámicos, se pueden agregar o eliminar elementos fácilmente.
  */
@@ -44,7 +43,7 @@ juegoBorrado = juegos.shift();
 console.log({ juegoBorrado, juegos });
 
 // .splice(indice, cantidad) elimina "cantidad" elementos a partir del "indice" y devuelve un arreglo con los elementos eliminados
-let juegosBorrados = juegos.splice(pos, 2);
+let juegosBorrados = juegos.splice(0, 2);
 console.log({ juegosBorrados, juegos });
 
 /*
